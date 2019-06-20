@@ -8,12 +8,15 @@ header{
 }
 
 p{
-    font-size: 1.15rem;
+    font-size: 1.35rem;
 }
 
+.video{
+    height: 90vh;
+}
 /*Efect button Navbar*/
 
-a{
+/* a{
     font-size: 1.5rem;
     padding: 0.9375rem 1.875rem;
     letter-spacing: 0.0625rem;
@@ -33,4 +36,4 @@ a span:nth-child(2){
     left: 0;
     width: 0.125rem;
     height: 100%; 
-}
+} */

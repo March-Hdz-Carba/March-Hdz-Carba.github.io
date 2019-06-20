@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portafolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Name.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Name.css">
+    <link rel="stylesheet" type="text/css" href="AboutMe.css">
+    <link rel="stylesheet" type="text/css" href="swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="Projects.css">
+  
 </head>
 <body>
     <!--Navbar-->
@@ -23,19 +27,12 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                          <a class="nav-link efect-butt" href="#home">Inicio
-                                <span ></span>
-                                <span ></span>
-                                <span ></span>
-                                <span ></span>
-                                <span ></span>
-                                <span ></span>
-                          </a>
+                          <a class="nav-link" href="#home">Inicio</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#aboutMe">Quién soy</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#projects">Proyectos</a>
                         </li>
                         <li class="nav-item">
@@ -55,7 +52,7 @@
         <div class="container h100">
             <div class="contentBox h100">
                 <section class="section-name">
-                    <video src="smoke.mp4" autoplay muted></video>
+                    <video src="smoke.mp4" autoplay muted class="video"></video>
                     <h1 class="display-4 nameStyle text-center">
                         <span>M</span>
                         <span>A</span>
@@ -104,42 +101,27 @@
     </div>
 
     <!--Section of About me-->
-    <section class="aboutMe" id="aboutMe">
-        <div class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText text-center">
-                        <h2>
-                            Quién Soy
-                        </h2>
-                        <div>
-                            <p>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-                            </p>
-                        </div>
-                    </div>
+    <div id="particles-js">
+        <section class="aboutMe" id="aboutMe">
+            <div class="container" >
+                <div class="row text-center justify-content-center textAboutme ">
+                    <h2>
+                        Quién Soy
+                    </h2>
+                        <br></br>
+                        <br></br>
+                    <p>
+                        "Soy una apasionada de aprender continuamente y cuando no estoy "codeando" me gusta ver cine de arte, asistir al teatro, 
+                        leer libros de diversos temas de mi interés o simplemente ver alguna serie preferentemente de ciencia ficción o thriller"
+                    </p>
                 </div>
             </div>
-
-            <!-- <div class="row">
-                <div class="col-sm-4">
-                    <div class="placeBox">
-                        <div class="imgBx">
-                            <img src="imagen/images (1).png" class="img-fluid">
-                        </div>
-                        <div class="content">
-                            <h3>Nombre del proyecto</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    </section>
+        </section>
+    </div>
 
     <!--Section of Projects-->
     <section class="projects" id="projects">
-            <div class="container h100">
+            <!-- <div class="container h100">
                 <div class="row">
                     <div class="offset-sm-2 col-sm-8">
                         <div class="headerText text-center">
@@ -185,7 +167,20 @@
                     </div>
 
                 </div>
+            </div> -->
+    
+    <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    
     </section>
 
     <!--Section of Curriculum-->
@@ -257,16 +252,14 @@
            <div class="container">
                <div class="row">
                    <div class="col-sm-12">
-                       <ul>
+                       <ul class="sci">
                            <li>
                                 <a href="#">
                                     <i class="fa fa-linkedin"></i>
-                                </a>
                             </li>
                             <li>
                                 <a href="#">
                                         <i class="fa fa-github"></i>
-                                </a>
                             </li>
                             
                        </ul>
@@ -281,6 +274,29 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    <!--Scrip for particles-->
+    <script type="text/javascript" src="resourses/particles.js"></script>
+    <script type="text/javascript" src="resourses/app.js"></script>
+    <!--Scrip for slider-->
+    <script type="text/javascript" src="resourses/swiper.min.js"></script>
+     <!-- Initialize Swiper -->
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            });
+    </script>
 </body>
 </html>
