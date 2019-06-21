@@ -33,13 +33,12 @@ video{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 80%;
+    width: 75%;
     text-align: center;
     justify-content: center;
     align-items: center;
     color:#fff;
     font-size: 4em;
-
     flex-wrap: wrap; 
     flex-direction: column;
 }
@@ -50,7 +49,7 @@ video{
     position: absolute;
     top: 65%;
     transform: translateY(-50%);
-    width: 80%;
+    width: 75%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -66,6 +65,200 @@ h1 span {
     display: inline-block;
     animation: animate 2s linear forwards;
 }
+
+@media (max-width: 1024px){
+    .nameStyle {
+        font-size: 3em;
+        width: 90%;
+        display: inline-block;
+    }
+    .sloganStyle {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .nameStyle {
+        font-size: 3em;
+        width: 94%;
+        display: inline-block;
+    }
+    .sloganStyle {
+        font-size: 1.2em;
+        width: 90%;
+    }
+    h1 span:nth-child(9)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(10)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(11)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(12)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(13)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(14)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(15)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(16)
+    {
+        display: inline-block;
+        font-size: .79em;
+    }
+    h1 span:nth-child(17)
+    {
+        display: inline-block;
+        font-size: .79em;
+    } 
+}
+
+@media (max-width: 425px){
+    .nameStyle {
+        font-size: 2.7em;
+        width: 90%;
+        display: inline-block;
+    }
+    .sloganStyle {
+        font-size: 1em;
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px ){
+    .nameStyle {
+        font-size: 2.9em;
+        width: 90%;
+        display: inline-block;
+    }
+    .sloganStyle {
+        font-size: .5em;
+        width: 90%;
+    }  
+    h1 span:nth-child(9)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(10)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(11)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(12)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(13)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(14)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(15)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(16)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(17)
+    {
+        display: inline-block;
+        font-size: .85em;
+    } 
+}
+
+@media (max-width: 320px){
+    .nameStyle {
+        font-size: 2.25em;
+        display: inline-block;
+        width: 90%;
+    }
+    h1 span:nth-child(9)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(10)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(11)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(12)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(13)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(14)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(15)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(16)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    h1 span:nth-child(17)
+    {
+        display: inline-block;
+        font-size: .85em;
+    }
+    .sloganStyle {
+        font-size: .9em;
+        width: 90%;
+    }   
+    }
 
 @keyframes animate{
     0% {opacity: 0;
