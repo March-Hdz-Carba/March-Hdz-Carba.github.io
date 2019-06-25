@@ -1,12 +1,12 @@
 /*Efect with particles.js*/
 #particles-js{
-    height: 85vh;
+    height: 100vh;
     background: rgb(24, 22, 26);
 }
 
 
 
 .textAboutme{
-    padding-top: 8%;
+    padding-top: 6%;
     color:#fff;
 }

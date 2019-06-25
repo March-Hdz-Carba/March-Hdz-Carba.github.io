@@ -1,13 +1,28 @@
 .projects{
-    background: rgb(39, 32, 58);
+    /* background: rgb(39, 32, 58); */
     margin: 0;
     padding: 0;
-    color: aliceblue;
+    color: rgb(4, 32, 56);
 }
 
 .shadow{
   position: relative;
-  width: 200px;
-  height: 200px;
+  /* margin: 200px auto 0; */
+  width: 300px;
+  height: 300px;
   background: linear-gradient(0deg,#000,#262626);
+}
+
+.shadow::before{
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  /* right: -20px;
+  bottom: -20px;  */
+  background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff000f,#fb0094,#0000ff,#00ff00,#ffff00,#ff000f);
+  background-size: 400%;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  z-index: -1;
 }
