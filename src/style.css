@@ -1,0 +1,39 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    position: relative;
+    z-index: 10000000;
+}
+
+p{
+    font-size: 1.35rem;
+}
+
+.video{
+    height: 90vh;
+}
+/*Efect button Navbar*/
+
+/* a{
+    font-size: 1.5rem;
+    padding: 0.9375rem 1.875rem;
+    letter-spacing: 0.0625rem;
+    text-decoration: none;
+    box-shadow: 0 0 40px rgba(0,0,0,.5);
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 0.125rem;
+    height: 100%; 
+}
+
+a span:nth-child(2){
+    top: 0;
+    left: 0;
+    width: 0.125rem;
+    height: 100%; 
+} */
