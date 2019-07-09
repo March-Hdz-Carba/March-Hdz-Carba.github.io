@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="src/style.css">
     <link rel="stylesheet" type="text/css" href="src/Name.css">
     <link rel="stylesheet" type="text/css" href="src/AboutMe.css">
-    <link rel="stylesheet" type="text/css" href="src/resourses/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="src/Projects.css">
+    <link rel="stylesheet" type="text/css" href="src/cv.css">
   
 </head>
 <body>
@@ -20,7 +20,7 @@
     <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-dark bg-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#">March</a>
+                    <a class="navbar-brand font-Text" href="#">MARCH</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -102,97 +102,105 @@
     </div>
 
     <!--Section of About me-->
-    <div id="particles-js">
-        <section class="aboutMe" id="aboutMe">
-            <div class="container">
-                <div class="row text-center justify-content-center textAboutme">
-                    <h2>
-                        Quién Soy
-                    </h2>
-                        <br></br>
-                        <br></br>
-                    <p>
-                        "Soy una apasionada de aprender continuamente y cuando no estoy "codeando" me gusta ver cine de arte, asistir al teatro, 
-                        leer libros de diversos temas de mi interés o simplemente ver alguna serie preferentemente de ciencia ficción o thriller"
-                    </p>
-                </div>
-            </div>
+    
+        <section class="aboutMe jumbotron jumbotron-fluid height100 d-flex justify-content-center text-center" id="aboutMe">
+            <!-- <div class="container h100">
+                <div class="row text-center justify-content-center h100"> -->
+                    <div class="box d-flex justify-content-center">
+                        <div class="layer1">
+                            <h2 class="titleAbout">
+                                Quién Soy
+                            </h2>
+                            <p class="titleAbout">
+                                Soy una apasionada de aprender continuamente y cuando no estoy <i>codeando</i> me gusta ver cine de arte, asistir al teatro, 
+                                leer libros de diversos temas de mi interés o simplemente ver alguna serie preferentemente de ciencia ficción o thriller.
+                            </p>
+                        </div>
+                        <div class="layer2"></div>
+                        <div class="layer3"></div>
+                    </div>
+                <!-- </div>
+            </div> -->
         </section>
-    </div>
 
 
     <!--Section of Projects-->
-    <section class="projects" id="projects">
-            <div class="container h100">
-                <div class="row">
-                    <div class="offset-sm-2 col-sm-8">
-                        <div class="headerText text-center">
-                            <h2>
-                                Proyectos
-                            </h2>
-                        </div>
+    <section class="jumbotron jumbotron-fluid slidPro" id="projects">
+        <div class="justify-content-center text-center">
+                <h2>Proyectos</h2>
+                <br>
+        </div>
+        
+            <ul>
+                <li>
+                    <div class="content">
+                        <h2>Save Word</h2>
+                        <p>WebApp basado en el cifrado césar, que tiene como finalidad el ayudar a los clientes para que sus contraseñas
+                            sean mas seguras y a la vez fáciles de recordar.
+                        </p>
+                        <button type="button" class="btn btn-info">Sitio</button>
+                        <button type="button" class="btn btn-info">Github</button>
                     </div>
-                </div>
-    
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="placeBox">
-                            <div class="shadow">
-                                <!-- <img src="imagen/images (1).png" class="img-fluid"> -->
-                            </div>
-                            <div class="content">
-                                <h3>Nombre del proyecto<br><span>Enlace Link</span></h3>
-                            </div>
-                        </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>Tic Tac Toe</h2>
+                        <p>Famoso y divertido juego del gato, creado con REACT-NATIVE para celular android</p>
+                        <button type="button" class="btn btn-info">Sitio</button>
+                        <button type="button" class="btn btn-info">Github</button>
                     </div>
-
-                    <!--
-                    <div class="col-sm-4">
-                        <div class="placeBox">
-                            <div class="imgBx">
-                                <img src="imagen/images (1).png" class="img-fluid">
-                            </div>
-                            <div class="content">
-                                <h3>Nombre del proyecto<br><span>Enlace Link</span></h3>
-                            </div>
-                        </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>Pocket-Mon</h2>
+                        <p>Basado en el juego de pokemon, esta webapp permite a los usuarios obtener información de los 150
+                            pokemones de la región de canto, aparte de poder filtrar y ordenar los pokemones segun el gusto del cliente.
+                        </p>
+                        <button type="button" class="btn btn-info">Sitio</button>
+                        <button type="button" class="btn btn-info">Github</button>
                     </div>
-
-                    <div class="col-sm-4">
-                        <div class="placeBox">
-                            <div class="imgBx">
-                                <img src="imagen/images (1).png" class="img-fluid">
-                            </div>
-                            <div class="content">
-                                <h3>Nombre del proyecto<br><span>Enlace Link</span></h3>
-                            </div>
-                        </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>Food-Map</h2>
+                        <p>Pagina web diseñada para que los usuarios puedan consultar los mejores restaurantes de Guadalajara,
+                            asi como tambien localizar los mas cercanos a la zona donde se encuentre e incluso filtrar
+                            los restaurantes según el tipo de comida.
+                        </p>
+                        <button type="button" class="btn btn-info">Sitio</button>
+                        <button type="button" class="btn btn-info">Github</button>
                     </div>
-
-                </div>
-            </div> -->
-
-    
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>Step'n Safe</h2>
+                        <p>Prototipado de alta fidelidad de aplicacion web, dirigida principalmente a usuarias como herramienta
+                            para su seguridad diaria.
+                        </p>
+                        <button type="button" class="btn btn-info">Sitio</button>
+                        <button type="button" class="btn btn-info">Github</button>
+                    </div>
+                </li>
+            </ul> 
     </section>
 
     <!--Section of Curriculum-->
-    <section class="curriculum" id="curriculum">
-        <div class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText text-center">
-                        <h2>
-                            Curriculum
-                        </h2>
-                        <div>
-                            <p>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-                            </p>
-                        </div>
-                    </div>
+    <section class="jumbotron jumbotron-fluid curricula" id="curriculum">
+        <div  class="justify-content-center text-center">   
+            <h2>
+                Curriculum
+            </h2>
+        </div> 
+        <div class="curricul"> 
+            <a href="https://drive.google.com/open?id=1VrzrzoT3wbJTqYOrSwEig7vT5QviiEUP" target="_blank">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </div>
-        </div>
+            </a>
+        </div>    
     </section>
 
     <!--Section of Contact-->
@@ -266,9 +274,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!--Scrip for particles-->
-    <script type="text/javascript" src="src/resourses/particles.js"></script>
-    <script type="text/javascript" src="src/resourses/app.js"></script>
-    </script>
+    
 </body>
 </html>
