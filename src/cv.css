@@ -1,7 +1,8 @@
 .curricula{
-    background: black; 
+    /* background: #23242a;  */
+    background: black;
     color: #fff;
-    
+    margin: 0%;
 }
 
 .curricul{
@@ -11,7 +12,9 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
+    /* background: #23242a; */
     background: black;
+
 }
 
 .loader{
