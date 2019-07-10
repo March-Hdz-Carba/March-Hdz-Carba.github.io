@@ -5,7 +5,8 @@
 .slidPro{
   margin: 0%;
   height: 90vh;   
-  background: #110f0f; 
+  background: black;
+  /* background: #110f0f;  */
 }
 
 .slidPro ul{
