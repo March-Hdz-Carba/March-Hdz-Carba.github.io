@@ -1,11 +1,11 @@
 .slidPro h2{
-  color: #fff;
+  color: #fcfdff;
 }
 
 .slidPro{
   margin: 0%;
   height: 90vh;   
-  background: black;
+  background: #010214;
   /* background: #110f0f;  */
 }
 
@@ -78,7 +78,7 @@
   width: 100%;
   background: rgba(0,0,0,.8);
   box-sizing: border-box;
-  color: #fff;
+  color: #fcfdff;
   opacity: 0;
 }
 
