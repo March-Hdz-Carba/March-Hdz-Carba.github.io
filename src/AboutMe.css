@@ -20,6 +20,10 @@
     align-content: center; */
   }
 
+.onlyAbout{
+  font-weight: bold;
+}
+
 .titleAbout{
   color: #fcfdff;
 }
@@ -112,6 +116,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 17.5rem;
-    height: 26.875rem;
+    height: 30rem;
   }
 }

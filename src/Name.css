@@ -1,7 +1,7 @@
 .banner{
     margin: 0%;
     height: 100vh;
-    background: #000001;
+    background: #010111;
     justify-content: center;
     display: flex;
     align-items: start;
@@ -48,6 +48,7 @@ video{
     color:#fcfdff;
     font-size: 4em;
     flex-wrap: wrap; 
+    display: inline-block;
     flex-direction: column;
 }
 
@@ -63,7 +64,6 @@ video{
     align-items: center;
     color: #fcfdff;
     font-size: 2em;
-
     flex-wrap: wrap; 
     flex-direction: column;
 }
@@ -90,7 +90,7 @@ h1 span {
 .sloganStyle {
     opacity: 0;
     display: inline-block;
-    animation: animate 3.8s linear forwards;
+    animation: animate 5s linear forwards;
 }
 
 h1 span:nth-child(1)
@@ -131,44 +131,20 @@ h1 span:nth-child(9)
     }
 h1 span:nth-child(10)
     {
-        animation-delay: 2s;
+        animation-delay: 2.5s;
     }
 h1 span:nth-child(11)
     {
-        animation-delay: 2.5s;
+        animation-delay: 3s;
     }
 h1 span:nth-child(12)
     {
-        animation-delay: 3s;
-    }
-h1 span:nth-child(13)
-    {
         animation-delay: 3.5s;
     }
-h1 span:nth-child(14)
-    {
-        animation-delay: 4s;
-    }
-h1 span:nth-child(15)
-    {
-        animation-delay: 4s;
-    }
-h1 span:nth-child(16)
-    {
-        animation-delay: 4.5s;
-    }
-h1 span:nth-child(17)
-    {
-        animation-delay: 4.5s;
-    }
 
-@media (max-width: 1024px){
-    .nameStyle {
-        font-size: 3em;
-        width: 90%;
-        display: inline-block;
-    }
+@media (max-width: 829px){
     .sloganStyle {
+        font-size: 1.15em;
         width: 90%;
     }
 }
@@ -176,63 +152,6 @@ h1 span:nth-child(17)
 @media (max-width: 768px){
     .nameStyle {
         font-size: 3em;
-        width: 94%;
-        display: inline-block;
-    }
-    .sloganStyle {
-        font-size: 1.2em;
-        width: 90%;
-    }
-    h1 span:nth-child(9)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(10)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(11)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(12)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(13)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(14)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(15)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(16)
-    {
-        display: inline-block;
-        font-size: .79em;
-    }
-    h1 span:nth-child(17)
-    {
-        display: inline-block;
-        font-size: .79em;
-    } 
-}
-
-@media (max-width: 425px){
-    .nameStyle {
-        font-size: 2.7em;
         width: 90%;
         display: inline-block;
     }
@@ -242,116 +161,14 @@ h1 span:nth-child(17)
     }
 }
 
-@media (max-width: 375px ){
-    .nameStyle {
-        font-size: 2.9em;
-        width: 90%;
-        display: inline-block;
-    }
-    .sloganStyle {
-        font-size: .5em;
-        width: 90%;
-    }  
-    h1 span:nth-child(9)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(10)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(11)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(12)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(13)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(14)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(15)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(16)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(17)
-    {
-        display: inline-block;
-        font-size: .85em;
-    } 
-}
-
 @media (max-width: 320px){
     .nameStyle {
         font-size: 2.25em;
         display: inline-block;
         width: 90%;
     }
-    h1 span:nth-child(9)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(10)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(11)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(12)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(13)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(14)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(15)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(16)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
-    h1 span:nth-child(17)
-    {
-        display: inline-block;
-        font-size: .85em;
-    }
     .sloganStyle {
-        font-size: .9em;
+        font-size: .85em;
         width: 90%;
     }   
     }
