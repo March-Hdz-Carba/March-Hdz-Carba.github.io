@@ -7,6 +7,10 @@ header{
     z-index: 10000000;
 }
 
+h2{
+    font-weight: bold;
+  }
+  
 p{
     font-size: 1.35rem;
 }

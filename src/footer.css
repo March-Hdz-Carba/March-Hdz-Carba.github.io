@@ -1,3 +1,14 @@
 .desigFooter{
     background: #010214;
+    height: 10vh;
+    align-items: center;
 }
+
+.linkeIn{
+    float: left;
+}
+
+.github{
+    float: right;
+}
+
